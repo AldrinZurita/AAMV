@@ -1,0 +1,55 @@
+.pregunta-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* 📷 Imagen de gatito */
+  .imagen {
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  /* 🔼 Asegurar que los botones estén uno encima del otro */
+  .botones {
+    display: flex;
+    flex-direction: column; /* Apila los botones verticalmente */
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* 🎭 Botón Sí crece pero empuja los demás elementos */
+  .boton-si {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* 🎭 Botón No se empuja hacia abajo cuando el botón Sí crece */
+  .boton-no {
+    transition: margin-top 0.3s ease-in-out;
+    margin-top: 10px; /* Espacio inicial entre botones */
+  }
+  
+  /* Cuando el botón "Sí" crece, empuja el botón "No" */
+  .boton-si:active ~ .boton-no {
+    margin-top: 20px;
+  }
+  
+  /* 🎨 Estilos generales para botones */
+  button {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s, background 0.3s;
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+  
+  .boton-si {
+    background: #ff4d6d;
+    color: white;   
+  }
+  
+  .boton-no {
+    background: #ddd;
+  }
+  
