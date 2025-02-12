@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AAMV/static/css/main.d28843e1.css",
+    "main.js": "/AAMV/static/js/main.c2d12034.js",
+    "static/js/488.b46a2596.chunk.js": "/AAMV/static/js/488.b46a2596.chunk.js",
+    "index.html": "/AAMV/index.html",
+    "main.d28843e1.css.map": "/AAMV/static/css/main.d28843e1.css.map",
+    "main.c2d12034.js.map": "/AAMV/static/js/main.c2d12034.js.map",
+    "488.b46a2596.chunk.js.map": "/AAMV/static/js/488.b46a2596.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d28843e1.css",
+    "static/js/main.c2d12034.js"
+  ]
+}
